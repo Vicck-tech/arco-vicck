@@ -186,7 +186,7 @@ networkmanager-pptp
 networkmanager-vpnc
 networkmanager-dispatcher-ntpd
 openresolv
-#samba
+samba
 wpa_supplicant
 
 ###file management
@@ -233,7 +233,7 @@ poppler-qt5
 #########################################################################
 
 ###applications
-atom
+#atom
 chromium
 #picom
 #darktable
@@ -243,24 +243,24 @@ dmenu
 feh
 firefox
 #flashplugin
-galculator
-geany
+#galculator
+#geany
 gimp
 #gmrun
 #gsimplecal
 #guvcview
-imagemagick
-inkscape
+#imagemagick
+#inkscape
 #libreoffice-fresh
 #lshw
 meld
 #nitrogen
 numlockx
 #pragha
-qbittorrent
-scrot
-simplescreenrecorder
-termite
+#qbittorrent
+#scrot
+#simplescreenrecorder
+#termite
 #tint2
 variety
 vlc
@@ -291,9 +291,10 @@ arc-icon-theme
 gnome-icon-theme
 papirus-icon-theme
 
-###lightdm
+###login manager
 accountsservice
-lightdm
+#lightdm
+gdm
 
 ###lx-applications
 #lxappearance
@@ -313,7 +314,7 @@ arandr
 asciinema
 bash-completion
 baobab
-catfish
+#catfish
 cronie
 dconf-editor
 dmidecode
@@ -365,7 +366,7 @@ reflector
 #redshift
 #rofi
 rxvt-unicode
-simple-scan
+#simple-scan
 #shotwell
 speedtest-cli
 timeshift
@@ -387,16 +388,16 @@ xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-zsh
-zsh-completions
-zsh-syntax-highlighting
+#zsh
+#zsh-completions
+#zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPO_ISO
 ###########################################################################
 
 ###applications
-vivaldi
+#vivaldi
 #vivaldi-codecs-ffmpeg-extra-bin
 
 ###cursors
@@ -439,20 +440,20 @@ grub-customizer
 hardcode-fixer-git
 inxi
 #menulibre
-mintstick-git
+#mintstick-git
 #mugshot
 neofetch
 #numix-gtk-theme-git
 pamac-aur
-peek
+#peek
 pulseaudio-equalizer-ladspa
 python-pyparted
 #python-pywal
-screenkey-git
+#screenkey-git
 sublime-text-dev
 the_platinum_searcher-bin
 tmux
-trizen
+#trizen
 urxvt-perls
 urxvt-resize-font-git
 wttr
@@ -485,16 +486,16 @@ arcolinux-cron-git
 #arcolinux-docs-git
 #arcolinux-faces-git
 arcolinux-fonts-git
-arcolinux-geany-git
+#arcolinux-geany-git
 arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-arcolinux-lightdm-gtk-greeter
+#arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
+#arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -522,7 +523,7 @@ arcolinux-root-git
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
 #arcolinux-systemd-services-git
-arcolinux-termite-themes-git
+#arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-variety-git
@@ -595,7 +596,7 @@ arcolinux-config-gnome-git
 #arcolinux-deepin-dconf-git
 #arcolinux-dwm-dconf-git
 #arcolinux-enlightenment-dconf-git
-arcolinux-gnome-dconf-git
+#arcolinux-gnome-dconf-git
 #arcolinux-herbstluftwm-dconf-git
 #arcolinux-i3wm-dconf-git
 #arcolinux-jwm-dconf-git
@@ -748,11 +749,11 @@ gtk-engine-murrine
 ###########################################################################
 
 gnome
-gnome-extra
+#gnome-extra
 nautilus-image-converter
-gnome-mplayer
-gnome-multi-writer
-gnome-pie
+#gnome-mplayer
+#gnome-multi-writer
+#gnome-pie
 chrome-gnome-shell
 libappindicator-gtk3
 gnome-shell-extension-appindicator-git
