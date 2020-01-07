@@ -1,3 +1,3 @@
-# Arcolinux-Vicck Edition
+# Arcolinux-Viccktory Edition
 
 A work in progress
