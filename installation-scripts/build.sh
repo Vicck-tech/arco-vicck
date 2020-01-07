@@ -8,8 +8,8 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-buildFolder="$HOME/ArcoVicck-build"
-outFolder="$HOME/ArcoVicck-Out"
+buildFolder="$HOME/Viccktory-build"
+outFolder="$HOME/Viccktory-Out"
 
 #Setting variables
 #Let us change the name"
@@ -56,7 +56,7 @@ echo "Deleting the work folder if one exists"
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo "Git cloning files and folder to work folder"
-git clone https://github.com/arcolinux/arcolinux-iso ../work
+git clone https://github.com/Vicck-tech/viccktory-iso ../work
 
 echo
 echo "################################################################## "
