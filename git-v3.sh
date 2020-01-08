@@ -4,15 +4,15 @@
 echo "Checking for newer files online first"
 git pull
 
-#echo "Deleting the work folder if one exists"
-#[ -d work ] && rm -rf work
+echo "Deleting the work folder if one exists"
+[ -d work ] && rm -rf work
 
 # Below command will backup everything inside the project folder
 git add --all .
 
 # Give a comment to the commit if you want
 echo "####################################"
-echo "Write your commit comment!"
+echo "What have you changed!"
 echo "####################################"
 
 read input
