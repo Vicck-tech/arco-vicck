@@ -285,6 +285,7 @@ ttf-inconsolata
 ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
+powerline-fonts
 
 ###icons
 arc-icon-theme
