@@ -276,6 +276,7 @@ lm_sensors
 adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 noto-fonts
+powerline-fonts
 #terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -285,7 +286,6 @@ ttf-inconsolata
 ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
-powerline-fonts
 
 ###icons
 arc-icon-theme
@@ -294,8 +294,7 @@ papirus-icon-theme
 
 ###login manager
 accountsservice
-#lightdm
-gdm
+lightdm
 
 ###lx-applications
 #lxappearance
@@ -318,6 +317,7 @@ baobab
 #catfish
 cronie
 dconf-editor
+deja-dup
 dmidecode
 evince
 expac
@@ -370,7 +370,7 @@ rxvt-unicode
 #simple-scan
 #shotwell
 speedtest-cli
-timeshift
+#timeshift
 #tlp
 tree
 ufw
@@ -420,8 +420,8 @@ numix-circle-arc-icons-git
 numix-icon-theme-git
 numix-circle-icon-theme-git
 paper-icon-theme
-sardi-icons
-surfn-icons-git
+#sardi-icons
+#surfn-icons-git
 #surfn-arc-breeze-icons-git
 zafiro-icon-theme
 
@@ -454,7 +454,7 @@ python-pyparted
 sublime-text-dev
 the_platinum_searcher-bin
 tmux
-#trizen
+trizen
 urxvt-perls
 urxvt-resize-font-git
 wttr
