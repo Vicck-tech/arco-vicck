@@ -494,9 +494,9 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-#arcolinux-lightdm-gtk-greeter
+arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-#arcolinux-lightdm-gtk-greeter-settings
+arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -527,7 +527,7 @@ arcolinux-system-config-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
-arcolinux-variety-git
+#arcolinux-variety-git
 #arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
@@ -544,7 +544,7 @@ arcolinux-variety-git
 #arcolinux-deepin-git
 #arcolinux-dwm-git
 #arcolinux-enlightenment-git
-#arcolinux-gnome-git
+arcolinux-gnome-git
 #arcolinux-herbstluftwm-git
 #arcolinux-i3wm-git
 #arcolinux-jwm-git
@@ -761,35 +761,35 @@ gnome-shell-extension-appindicator-git
 guake
 
 ###########################################################################
-#                           HEFFTOR CALAMARES
-###########################################################################
-hefftor-calamares-config-git
-hefftor-system-installation-git
-hefftor-grub-theme-vimix-git
-
-###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
 hefftor-gimp-git
+hefftor-variety-git
+hefftor-plank-git
 
 ###########################################################################
-#                             VICCKTORY CONFIGS
+#                             VICTORY CONFIGS
 ###########################################################################
-viccktory-plank-git
+#victory-plank-git
 
 ###########################################################################
-#                             VICCKTORY GNOME
-###########################################################################
-hefftor-xfce-git
-hefftor-xfce-config-git
-hefftor-xfce-dconf-git
-hefftor-xfce-local-git
-hefftor-xfce4-panel-profiles-git
-
-###########################################################################
-#                         VICCKTORY APPLICATIONS
+#                             VICTORY GNOME
 ###########################################################################
 
+###########################################################################
+#                         VICTORY APPLICATIONS
+###########################################################################
+realvnc-vnc-server
+realvnc-vnc-viewer
+teamviewer
+timeshift
+timeshift-autosnap
+victory-flat-remix-icons-git
+lightdm-webkit2-greeter
+popsicle-git
+victory-flat-remix-themes-git
+victory-lightdm-litarvan-git
+victory-update-git
 
 ###########################################################################
 #                           EXTRA APPLICATIONS

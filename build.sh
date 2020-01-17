@@ -21,7 +21,7 @@ echo "Deleting the work folder if one exists"
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo "Git cloning files and folder to work folder"
-git clone https://github.com/Vicck-tech/viccktory-iso work
+git clone https://github.com/Vicck-tech/victory-iso work
 
 echo
 echo "################################################################## "
@@ -96,9 +96,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/ArcoViccktory-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/ArcoViccktory-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/ArcoViccktory-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/ArcoVictory-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/ArcoVictory-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/ArcoVictory-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d ../work ] && rm -rf ../work
