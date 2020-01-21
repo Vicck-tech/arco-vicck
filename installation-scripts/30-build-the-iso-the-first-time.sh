@@ -7,6 +7,8 @@
 #
 ##################################################################################################################
 
+SKIP_AUTOSNAP=true
+
 buildFolder="$HOME/arcovictory-build"
 outFolder="$HOME/ArcoVictory-Out"
 
@@ -186,7 +188,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arco* $outFolder
+cp $buildFolder/archiso/out/arcolinux* $outFolder
 
 echo
 echo "################################################################## "
