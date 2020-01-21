@@ -8,8 +8,8 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-buildFolder="$HOME/Viccktory-build"
-outFolder="$HOME/Viccktory-Out"
+buildFolder="$HOME/Victory-build"
+outFolder="$HOME/Victory-Out"
 
 echo
 echo "################################################################## "
