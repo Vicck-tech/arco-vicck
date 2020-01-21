@@ -512,8 +512,8 @@ arcolinux-neofetch-git
 #arcolinux-obmenu-generator-xtended-git
 #arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
-#arcolinux-plank-git
-#arcolinux-plank-themes-git
+arcolinux-plank-git
+arcolinux-plank-themes-git
 #arcolinux-polybar-git
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
@@ -765,7 +765,7 @@ guake
 ###########################################################################
 hefftor-gimp-git
 hefftor-variety-git
-hefftor-plank-git
+#hefftor-plank-git
 
 ###########################################################################
 #                             VICTORY CONFIGS
